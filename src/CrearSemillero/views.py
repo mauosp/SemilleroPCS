@@ -10,6 +10,6 @@ class CrearSemilleroViexSet(viewsets.ModelViewSet):
     serializer_class = CrearSemilleroSerializer
     queryset = CrearSemillero.objects.all()
 
-def semilleros(request):
-    return render(request, "semilleros.html",{})
 
+def semilleros(request):
+    return render(request, "semilleros.html", {})

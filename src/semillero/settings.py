@@ -40,8 +40,10 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
-
+    'Login',
+    'ListadoSemilleros',
     'CrearSemillero',
+    'InscribirseSemillero',
 
 ]
 
